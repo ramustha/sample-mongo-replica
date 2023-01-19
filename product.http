@@ -1,0 +1,18 @@
+###
+GET http://localhost:8080/products
+
+<> 2023-01-19T111538.200.json
+<> 2023-01-19T111500.200.json
+<> 2023-01-19T111340.200.json
+
+###
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "item": "lamp",
+  "qty": 1,
+  "type": "desk"
+}
+
+<> 2023-01-19T111439.200.json
